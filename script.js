@@ -45,6 +45,7 @@ const geoTest = (question,options,answer,url) => {
   //2- Se configrua el nodo
   btn.innerText = "Enviar";
   btn.type="submint";
+  btn.style="margin: 12px 8px;"
   //3- Se asigna contenido al nodo
   form.appendChild(btn);
   // ******** Se define la condición de la respeusta enviada ********
